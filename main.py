@@ -3,13 +3,7 @@ import telebot
 import time
 import datetime
 
-# Получаем токен бота из переменных окружения
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-
-if BOT_TOKEN is None:
-    print("Ошибка: переменная окружения BOT_TOKEN не установлена.")
-    exit(1)
-
+BOT_TOKEN = '7496209282:AAH8_B8-5gXO3I1MwEGT4W4nEus-YDJj7Tg' 
 bot = telebot.TeleBot(BOT_TOKEN)
 
 def get_schedule(month, day, weekday):
