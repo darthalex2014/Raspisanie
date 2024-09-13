@@ -3,7 +3,7 @@ import telebot
 import time
 import datetime
 
-BOT_TOKEN = '7496209282:AAH8_B8-5gXO3I1MwEGT4W4nEus-YDJj7Tg' 
+BOT_TOKEN = '7361322981:AAF2LdejPyfxsg1_JwV-Ypv0_7RqU5xym3M' 
 bot = telebot.TeleBot(BOT_TOKEN)
 
 def get_schedule(month, day, weekday):
